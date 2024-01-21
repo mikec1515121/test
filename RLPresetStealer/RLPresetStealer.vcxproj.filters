@@ -66,6 +66,15 @@
     <ClCompile Include="RLPresetStealerGUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fmt\src\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fmt\src\os.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BMLoadout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RLPresetStealer.h">
@@ -113,5 +122,22 @@
     <ClInclude Include="imgui\imgui_internal.h">
       <Filter>imgui\headers</Filter>
     </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BMLoadout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RLPresetStealer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
